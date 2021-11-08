@@ -1,0 +1,234 @@
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: #cadffb;
+}
+
+.header {
+  width: 100%;
+  height: 88vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header .IS, .R {
+  border-radius: 10%;
+  width: 40%;
+  display:flex;
+  flex-direction: column;
+  background-color: #3F448C;
+  align-items: center;
+  padding-bottom: 2%;
+  margin: 10% 0;
+}
+.header .IS h1, .R h1{
+  color: #bbbeef;
+  font-family: 'Josefin Sans';
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+}
+.header .IS .formu , .header .R .formu {
+  background-color: #7178df;
+  width: 80%;
+  display: flex;
+padding: 5% 0%;
+}
+.header .IS .formu form , .header .R .formu form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+label{
+  color:#252440;
+  width: 60%;
+  font-size: 1.5em;
+  font-family:'Josefin Sans';
+}
+input{
+  width: 60%;
+  font-size: 1.3em;
+  font-family:'Josefin Sans';
+}
+.boton{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 2%;
+}
+footer{
+  width: 100%;
+  height: 12vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#414850;
+font-size: 1.4em;
+}
+@media (min-width: 2000px){
+  label{
+    color:#252440;
+    width: 60%;
+    font-size: 2.5em;
+    font-family:'Josefin Sans';
+  }
+  input{
+    width: 60%;
+    font-size: 2.7em;
+    font-family:'Josefin Sans';
+  }
+  .header .IS h1, .R h1{
+    color: #bbbeef;
+    font-family: 'Josefin Sans';
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+  }
+  footer{
+    font-size: 2em;
+    width: 100%;
+    height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#414850;
+  }
+}
+@media (max-width: 1024px){
+  footer{
+    width: 100%;
+    height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#414850;
+  font-size: 1em;
+  }
+  label{
+    color:#252440;
+    width: 60%;
+    font-size: 1.2em;
+    font-family:'Josefin Sans';
+  }
+  input{
+    width: 60%;
+    font-size: 1em;
+    font-family:'Josefin Sans';
+  }
+  .header .IS h1, .R h1{
+    color: #bbbeef;
+    font-family: 'Josefin Sans';
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px){
+  footer{
+    width: 100%;
+    height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#414850;
+  font-size: 0.8em;
+  }
+  .header .IS, .R {
+    border-radius: 10%;
+    width: 48%;
+    display:flex;
+    flex-direction: column;
+    background-color: #3F448C;
+    align-items: center;
+    padding-bottom: 2%;
+    margin: 10% 0;
+  }
+  label{
+    color:#252440;
+    width: 80%;
+    font-size: 1.2em;
+    font-family:'Josefin Sans';
+  }
+  input{
+    width: 80%;
+    font-size: 1em;
+    font-family:'Josefin Sans';
+  }
+}
+@media (max-width: 576px){
+  .header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer{
+    width: 100%;
+    height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#414850;
+  font-size: 0.8em;
+  }
+  .header .IS, .R {
+    border-radius: 10%;
+    width: 55%;
+    display:flex;
+    flex-direction: column;
+    background-color: #3F448C;
+    align-items: center;
+    padding-bottom: 2%;
+    margin: 10% 0;
+  }
+  label{
+    color:#252440;
+    width: 80%;
+    font-size: 1em;
+    font-family:'Josefin Sans';
+  }
+  input{
+    width: 80%;
+    font-size: 0.8em;
+    font-family:'Josefin Sans';
+  }
+.header{
+    scroll-behavior: auto;
+    height: auto;}
+  }
+@media (max-width: 376px){
+  .header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer{
+    width: 100%;
+    height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#414850;
+  font-size: 0.7em;
+  }
+  .header .IS, .R {
+    border-radius: 10%;
+    width: 75%;
+    display:flex;
+    flex-direction: column;
+    background-color: #3F448C;
+    align-items: center;
+    padding-bottom: 2%;
+    margin: 10% 0;
+  }
+
+}
